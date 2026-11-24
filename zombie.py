@@ -62,3 +62,5 @@ class Zombie:
             if self.size == 200:
                 self.size = 100
                 self.y = 100
+            elif self.size == 100:
+                game_world.remove_object(self)
