@@ -47,5 +47,5 @@ class Ball:
         if group == "boy:ball":
             game_world.remove_object(self)
         if group == "ball:zombie":
-            pass
+            game_world.remove_object(self)
             
